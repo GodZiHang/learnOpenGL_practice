@@ -1,0 +1,13 @@
+add_executable(03.useEBO
+        main.cpp
+        ../glad.c
+	)
+target_link_libraries(
+	03.useEBO
+	glfw3
+	GL
+	X11
+	pthread
+	Xrandr
+	Xi
+	dl)

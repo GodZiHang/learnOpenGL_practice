@@ -1,0 +1,13 @@
+add_executable(04.shader
+        main.cpp
+        ../glad.c
+	)
+target_link_libraries(
+	04.shader
+	glfw3
+	GL
+	X11
+	pthread
+	Xrandr
+	Xi
+	dl)

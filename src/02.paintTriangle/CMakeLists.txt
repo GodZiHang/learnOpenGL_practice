@@ -1,0 +1,13 @@
+add_executable(02.paintTriangle
+        main.cpp
+        ../glad.c
+	)
+target_link_libraries(
+	02.paintTriangle
+	glfw3
+	GL
+	X11
+	pthread
+	Xrandr
+	Xi
+	dl)

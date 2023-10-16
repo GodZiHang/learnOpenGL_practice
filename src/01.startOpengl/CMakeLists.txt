@@ -1,0 +1,13 @@
+add_executable(01.startOpengl
+        main.cpp
+        glad.c
+	)
+target_link_libraries(
+	01.startOpengl
+	glfw3
+	GL
+	X11
+	pthread
+	Xrandr
+	Xi
+	dl)
